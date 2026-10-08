@@ -1,0 +1,47 @@
+--- public/manifest.json (原始)
+{
+  "name": "Clásicos del Fútbol - Pixel Edition",
+  "short_name": "Clásicos FC",
+  "description": "Simulador de clásicos del fútbol en pixel art",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#16a34a",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
+
++++ public/manifest.json (修改后)
+{
+  "name": "Clásicos del Fútbol - Pixel Edition",
+  "short_name": "Clásicos FC",
+  "description": "Simulador de clásicos del fútbol en pixel art con jugadores reales",
+  "start_url": "/TU_REPO/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#16a34a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/TU_REPO/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/TU_REPO/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "sports"],
+  "lang": "es-ES"
+}
